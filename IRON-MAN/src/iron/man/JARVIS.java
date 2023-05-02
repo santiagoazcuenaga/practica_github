@@ -8,7 +8,7 @@ package iron.man;
  *
  * @author Usuario
  */
-public class IRONMAN {
+public class JARVIS {
 
     /**
      * @param args the command line arguments

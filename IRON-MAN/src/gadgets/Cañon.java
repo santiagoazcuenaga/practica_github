@@ -1,17 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Gagdets;
+package gadgets;
 
-import enums.Estado;
+import entidades.DispositivoArmadura;
 
 /**
- *
- * @author Usuario
+ * CAÑON
  */
-public class Cañon {      
-private Integer consumoPorDisparo;
+public class Cañon extends DispositivoArmadura {
 
+    public Cañon() {
+        this.consumoDeEnergia = 500000F;
+    }
 
 }

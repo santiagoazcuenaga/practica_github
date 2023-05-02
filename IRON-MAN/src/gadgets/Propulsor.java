@@ -1,18 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Gagdets;
+package gadgets;
 
-import enums.Estado;
+import entidades.DispositivoArmadura;
 
 /**
- *
- * @author Usuario
+ * PROPULSOR
  */
-public class Propulsor {
+public class Propulsor extends DispositivoArmadura {
 
-    private Boolean funciona = true;
-    private Estado estado;
-private Integer consumoPorSegundo;   
+    public Propulsor() {
+        this.consumoDeEnergia = 500F;
+    }
+
 }

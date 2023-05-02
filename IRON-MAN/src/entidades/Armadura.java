@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package entidades;
 
 import enums.Color;
@@ -9,20 +5,21 @@ import enums.Metal;
 
 /**
  *
- * @author Usuario
+ * ARMADURA
  */
 public class Armadura {
-private Color colorPrimario;
-private Color colorSecundario;
-private Guante guanteIzq;
-private Guante guanteDer;
-private Bota botaIzq;
-private Bota botaDer;
-private Casco casco;
-private Metal material;
-private Integer resistencia = material.getDurezaRockwell() * 10;
-private Integer nivelSalud = 100;
-private Generador generador;
+
+    private Color colorPrimario;
+    private Color colorSecundario;
+    private Guante guanteIzq;
+    private Guante guanteDer;
+    private Bota botaIzq;
+    private Bota botaDer;
+    private Casco casco;
+    private Generador generador;
+    private Metal material;
+    private Integer resistencia = material.getDurezaRockwell() * 10;
+    private Integer nivelSalud = 100;
 
     public Armadura() {
     }
